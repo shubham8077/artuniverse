@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<!-- <link rel="stylesheet" href="/storage/emulated/0/1Coding/Sam.css"> -->
+<link rel="stylesheet" href="Sam.css">
+</head>
+<body>
+
+<p id="hello">Hello everyone!</p>
+
+<div class="ball">
+<marquee behavior="alternate"><div id="b1"></div>
+<div id="b2"></div>
+<div id="b3"></div></marquee>
+</div>
+
+<div class="home">
+<button id="hb">Home</button>
+<div class="hmsrl">
+<div class="Cate">
+<a href="" ><h5>Quotes</h5></a>
+</div>
+<div class="Cate">
+<a href="" ><h5>Poems</h5></a>
+</div>
+<div class="Cate">
+<a href="" ><h5>Drawings</h5></a>
+</div>
+<div class="Cate">
+<a href="" ><h5>About</h5></a>
+</div>
+</div>
+<!-- <button><a href="/storage/emulated/0/1Coding/Contact.html" >Contact</a></button> -->
+<button><a href="Contact.html" >Contact</a></button>
+</div>
+
+<div class="box">
+<p><b>Welcome!<br><br> Nice to see you here. Explore our website.My website provides quotes,poems,drawimgs and much more...</b></p>
+</div>
+
+<footer>
+<p>&#169; copyright reserved | Made by Shubham</p>
+</footer>
+</body>
+
+<!-- <script src="/storage/emulated/0/1Coding/Web development/jquery/js/jquery-3.6.0.min.js"></script>
+ -->
+ <script src="Web development/jquery/js/jquery-3.6.0.min.js"></script>
+<script>
+$( ".Cate" ).hide();
+$("#hb").click(function(){
+$(".Cate").toggle("slow");
+});
+</script>
+</html>
