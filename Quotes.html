@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quotes</title>
+<style type="text/css">
+body{
+background-color:#a1e9fb;
+margin:0px;
+width:100%;
+height:100%;
+}
+#quotes{
+display:flex;
+scroll-behavior:smooth;
+background-image:linear-gradient(90deg,#d10877,#086dd1);
+color:white;
+font-size:40px;
+border:2px solid white;
+border-radius:10px;
+text-align:center;
+box-shadow:3px 8px 6px black;
+transition:background-image 1s;
+}
+#quotes:hover{
+background-image:linear-gradient(90deg,#5bab01ff,#e5e000ff);
+}
+.qbx{
+height:30%;
+}
+#q1{
+margin:8px;
+scroll-behavior:smooth;
+background-image:linear-gradient(90deg,#d10877,#086dd1);
+color:white;
+font-size:25px;
+border:2px solid white;
+border-radius:10px;
+text-align:center;
+box-shadow:3px 8px 6px black;
+width:90%;
+height:100px;
+transition:background-image 1s;
+}
+#q1:hover{
+background-image:linear-gradient(90deg,#5bab01ff,#e5e000ff);
+}
+#q2{
+margin:8px;
+scroll-behavior:smooth;
+background-image:linear-gradient(90deg,#d10877,#086dd1);
+color:white;
+font-size:25px;
+border:2px solid white;
+border-radius:10px;
+text-align:center;
+box-shadow:3px 8px 6px black;
+width:90%;
+height:100px;
+transition:background-image 1s;
+}
+#q2:hover{
+background-image:linear-gradient(90deg,#5bab01ff,#e5e000ff);
+}
+#q3{
+margin:8px;
+scroll-behavior:smooth;
+background-image:linear-gradient(90deg,#d10877,#086dd1);
+color:white;
+font-size:25px;
+border:2px solid white;
+border-radius:10px;
+text-align:center;
+box-shadow:3px 8px 6px black;
+width:90%;
+height:100px;
+transition:background-image 1s;
+}
+#q3:hover{
+background-image:linear-gradient(90deg,#5bab01ff,#e5e000ff);
+}
+
+.hpy{
+margin:2px;
+padding:4px;
+}
+#bk{
+color:white;
+background-image:linear-gradient(0deg,#00ccffff 1%,silver);
+border:5px inset white;
+border-radius:100px;
+height:70px;
+width:200px;
+justify-self:center;
+}
+</style>
+</head>
+<body>
+<p id="quotes">Quotes</p>
+
+<div class="qbx">
+
+<button id="q1"><h4>Happy,Positive</h4></button>
+<div class="hpy">
+<p><b>"Not how long, but how well you have lived is the main thing.” — Seneca</b></p><br>
+<p><b>“The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.”– Henry Ford</b></p><br>
+</div>
+
+<button id="q2"><h4>Love,Friendship</h4></button>
+<button id="q3"><h4>Sad,Lonely</h4></button>
+<button id="bk"><a href="Sam.html" ><b><h2>Back to home</h2></b></a></button>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(".hpy").hide();
+$("#q1").click(function(){
+$(".hpy").slideToggle("slow");
+});
+</script>
+</html>
